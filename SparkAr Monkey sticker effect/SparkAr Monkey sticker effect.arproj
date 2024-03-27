@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-4304a479-096d-44df-b385-259e45141a5a",
   "id": "1411ab407d17c4044e2283d702e6c170a6c5",
-  "revision": "1274ab407d17c4044e2283d702e6c170a6c5",
+  "revision": "10671b590ceed051e454890f6b9cffd6892ab",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -225,7 +225,7 @@
       "effectUsesFaceTrueScale": false,
       "effectUsesFaceWave": false,
       "effectUsesFacialExpressionRecognition": false,
-      "effectUsesFacialGestureRecognition": false,
+      "effectUsesFacialGestureRecognition": true,
       "effectUsesFieldOfView": false,
       "effectUsesFingerTracking": false,
       "effectUsesFonts": false,
@@ -389,7 +389,7 @@
       "faceExpressionFittingRTRRetargetingMinVersion": 1,
       "faceTrackerIsEnabled": false,
       "faceTrackerMaxFaces": 1,
-      "faceTrackerMinVersion": 10,
+      "faceTrackerMinVersion": 13,
       "facewaveMinVersion": 1,
       "hairSegmentationMinVersion": 1,
       "handTrackerMaxHands": 2,
@@ -447,7 +447,13 @@
     {
       "modelName": "target",
       "identifier": "target:60-4304a479-096d-44df-b385-259e45141a5a",
-      "targetPlatforms": []
+      "targetPlatforms": [
+        "instagram",
+        "facebook"
+      ],
+      "targetUseCases": [
+        "STORIES"
+      ]
     },
     {
       "modelName": "scripting_config_model",
