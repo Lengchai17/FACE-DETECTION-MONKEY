@@ -1,0 +1,62 @@
+{
+  "id": "1411ab407d17c4044e2283d702e6c170a6c5",
+  "revision": "1274ab407d17c4044e2283d702e6c170a6c5",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 179
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 179
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:481-2556f3e2-d554-4597-a277-f1ffffc65532",
+        "fromPatch": "template_patch_model:471-2556f3e2-d554-4597-a277-f1ffffc65532",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:473-2556f3e2-d554-4597-a277-f1ffffc65532",
+        "toPort": "2"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:90-4304a479-096d-44df-b385-259e45141a5a",
+        "subpatches": [
+          "template_patch_model:471-2556f3e2-d554-4597-a277-f1ffffc65532",
+          "template_patch_model:473-2556f3e2-d554-4597-a277-f1ffffc65532"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "template_patch_model",
+        "name": "Multiply",
+        "identifier": "template_patch_model:471-2556f3e2-d554-4597-a277-f1ffffc65532",
+        "position": [
+          715.6999999999997,
+          240.14999999999998
+        ],
+        "templateId": "builtin.binaryScalarMulOperator",
+        "variantInfo": "float"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Pack",
+        "identifier": "template_patch_model:473-2556f3e2-d554-4597-a277-f1ffffc65532",
+        "position": [
+          715.6999999999997,
+          110.14999999999998
+        ],
+        "templateId": "builtin.group.pack",
+        "variantInfo": "shader_vec2"
+      }
+    ]
+  }
+}

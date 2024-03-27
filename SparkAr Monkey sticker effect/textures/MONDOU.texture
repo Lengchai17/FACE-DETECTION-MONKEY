@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "MONDOU",
+  "identifier": "texture:3471-1256bb2d-f5b0-4389-bb06-3bec7d2914ae",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "672bf4cfa60188d00a2fc36ed623cbac",
+  "assetLocator": "textures/MONDOU.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 535,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 467,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "672bf4cfa60188d00a2fc36ed623cbac",
+      "colorCount": 75289,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 11.07730628584451,
+      "pixelsHigh": 535,
+      "pixelsWide": 467
+    }
+  ]
+}
