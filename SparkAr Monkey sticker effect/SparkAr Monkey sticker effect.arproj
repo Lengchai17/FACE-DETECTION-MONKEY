@@ -3,7 +3,7 @@
   "name": "Effect",
   "identifier": "document:4-4304a479-096d-44df-b385-259e45141a5a",
   "id": "1411ab407d17c4044e2283d702e6c170a6c5",
-  "revision": "10671b590ceed051e454890f6b9cffd6892ab",
+  "revision": "4972804640e03332e5c45a39478b27083919410",
   "version": {
     "dev": 0,
     "patch": 0,
@@ -228,7 +228,7 @@
       "effectUsesFacialGestureRecognition": true,
       "effectUsesFieldOfView": false,
       "effectUsesFingerTracking": false,
-      "effectUsesFonts": false,
+      "effectUsesFonts": true,
       "effectUsesFormFactor": false,
       "effectUsesFrameBrightness": false,
       "effectUsesGalleryPicker": false,
@@ -359,7 +359,7 @@
       "effectUsesTimeScriptingModule": false,
       "effectUsesToasterTracking": false,
       "effectUsesTouchGestures": false,
-      "effectUsesTwoDimensionalText": false,
+      "effectUsesTwoDimensionalText": true,
       "effectUsesTypeScript": false,
       "effectUsesUiCore": false,
       "effectUsesUiPlanarBackend": false,
@@ -471,6 +471,20 @@
     {
       "modelName": "input_mappings_model",
       "identifier": "input_mappings_model:189-4304a479-096d-44df-b385-259e45141a5a"
+    },
+    {
+      "modelName": "fonts",
+      "identifier": "fonts:4970926-640e0333-2e5c-45a3-9478-b27083919410",
+      "children": [
+        {
+          "modelName": "local_font_model",
+          "name": "NotoMono Regular",
+          "identifier": "local_font_model:4971886-640e0333-2e5c-45a3-9478-b27083919410",
+          "assetLocator": "4971887-640e0333-2e5c-45a3-9478-b27083919410",
+          "fontIdentity": "com.facebook.editor.fonts.notomono-regular",
+          "isExternalAsset": false
+        }
+      ]
     }
   ]
 }
