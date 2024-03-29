@@ -248,7 +248,7 @@
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 228.00003
+                            "value": 228.00003051757812
                           },
                           "hidden": false,
                           "horizontalAlignment": "center",
@@ -341,7 +341,7 @@
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 287.00006
+                            "value": 287.00006103515625
                           }
                         },
                         {
@@ -361,7 +361,7 @@
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 207.99998474121094
+                            "value": 208
                           },
                           "hidden": false,
                           "horizontalAlignment": "center",
@@ -567,7 +567,7 @@
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 210.6666717529297
+                            "value": 210.66668701171875
                           }
                         },
                         {
@@ -1152,7 +1152,7 @@
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 179.99996948242188
+                            "value": 232.66664123535156
                           },
                           "hidden": false,
                           "horizontalAlignment": "center",
@@ -1168,7 +1168,7 @@
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 612.0000305175781
+                            "value": 597.1666831970215
                           },
                           "pinnedHorizontalCenterValue": {
                             "unit": {
@@ -1191,7 +1191,7 @@
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 147
+                            "value": -0.5
                           },
                           "pinnedTop": false,
                           "pinnedTopValue": {
@@ -1227,15 +1227,15 @@
                           "scaleY": 1,
                           "tags": [],
                           "transform": {
-                            "rx": 1.224227306578481E-22,
-                            "ry": -1.9868178213755527E-8,
-                            "rz": 2.4835269396561444E-9,
-                            "sx": 1.5,
-                            "sy": 1.500000238418579,
+                            "rx": -1.5972670297514924E-8,
+                            "ry": -1.176007113912192E-8,
+                            "rz": 0.9370933175086975,
+                            "sx": 1.4999998807907104,
+                            "sy": 1.5000001192092896,
                             "sz": 1,
-                            "x": 111,
-                            "y": 52,
-                            "z": 0.0001220703125
+                            "x": 232.5,
+                            "y": 14.16668701171875,
+                            "z": 0.00006103515625
                           },
                           "usesFlexibleHeight": false,
                           "usesFlexibleWidth": false,
@@ -1245,7 +1245,7 @@
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 132
+                            "value": 158
                           }
                         },
                         {
