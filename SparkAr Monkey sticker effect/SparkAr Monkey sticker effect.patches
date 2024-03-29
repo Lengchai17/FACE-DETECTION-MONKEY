@@ -198,6 +198,22 @@
         "fromPort": "100",
         "toPatch": "template_patch_model:4972577-640e0333-2e5c-45a3-9478-b27083919410",
         "toPort": "2"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:949-d61e2b7d-72cf-480b-8a24-55209df47280",
+        "fromPatch": "template_patch_model:10424-b590ceed-051e-4548-90f6-b9cffd6892ab",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:945-d61e2b7d-72cf-480b-8a24-55209df47280",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:951-d61e2b7d-72cf-480b-8a24-55209df47280",
+        "fromPatch": "template_patch_model:945-d61e2b7d-72cf-480b-8a24-55209df47280",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:925-d61e2b7d-72cf-480b-8a24-55209df47280",
+        "toPort": "101"
       }
     ],
     "graphs": [
@@ -209,6 +225,7 @@
           "consumer_patch_model:10214-b590ceed-051e-4548-90f6-b9cffd6892ab",
           "consumer_patch_model:10216-b590ceed-051e-4548-90f6-b9cffd6892ab",
           "consumer_patch_model:4971860-640e0333-2e5c-45a3-9478-b27083919410",
+          "consumer_patch_model:925-d61e2b7d-72cf-480b-8a24-55209df47280",
           "template_patch_model:10218-b590ceed-051e-4548-90f6-b9cffd6892ab",
           "template_patch_model:10220-b590ceed-051e-4548-90f6-b9cffd6892ab",
           "template_patch_model:10368-b590ceed-051e-4548-90f6-b9cffd6892ab",
@@ -225,7 +242,8 @@
           "template_patch_model:11665-b590ceed-051e-4548-90f6-b9cffd6892ab",
           "template_patch_model:4971880-640e0333-2e5c-45a3-9478-b27083919410",
           "template_patch_model:4972569-640e0333-2e5c-45a3-9478-b27083919410",
-          "template_patch_model:4972577-640e0333-2e5c-45a3-9478-b27083919410"
+          "template_patch_model:4972577-640e0333-2e5c-45a3-9478-b27083919410",
+          "template_patch_model:945-d61e2b7d-72cf-480b-8a24-55209df47280"
         ]
       }
     ],
@@ -299,6 +317,26 @@
         "position": [
           2276,
           -124
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "rectangle3",
+        "identifier": "consumer_patch_model:925-d61e2b7d-72cf-480b-8a24-55209df47280",
+        "object": "rectangle_model:903-d61e2b7d-72cf-480b-8a24-55209df47280",
+        "objectProperty": "visible",
+        "position": [
+          1820,
+          380
         ],
         "values": [
           {
@@ -443,7 +481,7 @@
             "port": "5",
             "value": {
               "t": "int",
-              "v": 4
+              "v": 5
             }
           }
         ]
@@ -536,6 +574,25 @@
           -148
         ],
         "templateId": "builtin.binaryBoolAndOperator"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Equals",
+        "identifier": "template_patch_model:945-d61e2b7d-72cf-480b-8a24-55209df47280",
+        "position": [
+          1508,
+          500
+        ],
+        "templateId": "builtin.scalarEqToleranceOperator",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "double",
+              "v": 4
+            }
+          }
+        ]
       }
     ]
   }
