@@ -210,7 +210,7 @@
                         "scale": false
                       },
                       "cameraVisibility": "back|front",
-                      "height": 844,
+                      "height": 780,
                       "hidden": false,
                       "layerIdentifier": "layer0",
                       "outputVisibility": "preview|capture",
@@ -222,14 +222,14 @@
                         "rx": 0,
                         "ry": 0,
                         "rz": 0,
-                        "sx": 0.0005924170836806297,
-                        "sy": 0.0005924170836806297,
-                        "sz": 0.0005924170836806297,
+                        "sx": 0.0006410256610251963,
+                        "sy": 0.0006410256610251963,
+                        "sz": 0.0006410256610251963,
                         "x": 0,
                         "y": 0,
                         "z": 0
                       },
-                      "width": 390,
+                      "width": 360,
                       "children": [
                         {
                           "modelName": "rectangle_model",
@@ -258,13 +258,13 @@
                           "materialIdentifier": "defaultMaterial:572-ab407d17-c404-4e22-83d7-02e6c170a6c5",
                           "outputVisibility": "preview|capture",
                           "physicsEnabled": false,
-                          "pinnedBottom": false,
+                          "pinnedBottom": true,
                           "pinnedBottomValue": {
                             "unit": {
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 0
+                            "value": 504.99996999999996
                           },
                           "pinnedHorizontalCenterValue": {
                             "unit": {
@@ -289,13 +289,13 @@
                             },
                             "value": 0
                           },
-                          "pinnedTop": true,
+                          "pinnedTop": false,
                           "pinnedTopValue": {
                             "unit": {
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 111
+                            "value": 0
                           },
                           "pinnedVerticalCenterValue": {
                             "unit": {
@@ -330,7 +330,7 @@
                             "sy": 1.5,
                             "sz": 0.9999998807907104,
                             "x": 174.6666717529297,
-                            "y": 111,
+                            "y": 47.000030517578125,
                             "z": 0.00006103515625
                           },
                           "usesFlexibleHeight": false,
@@ -454,7 +454,7 @@
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 251.33331298828125
+                            "value": 251.33331
                           }
                         },
                         {
@@ -474,7 +474,7 @@
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 190
+                            "value": 208
                           },
                           "hidden": false,
                           "horizontalAlignment": "center",
@@ -484,13 +484,13 @@
                           "materialIdentifier": "defaultMaterial:572-ab407d17-c404-4e22-83d7-02e6c170a6c5",
                           "outputVisibility": "preview|capture",
                           "physicsEnabled": false,
-                          "pinnedBottom": false,
+                          "pinnedBottom": true,
                           "pinnedBottomValue": {
                             "unit": {
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 0
+                            "value": 8.5
                           },
                           "pinnedHorizontalCenterValue": {
                             "unit": {
@@ -499,29 +499,29 @@
                             },
                             "value": 0
                           },
-                          "pinnedLeft": true,
+                          "pinnedLeft": false,
                           "pinnedLeftValue": {
-                            "unit": {
-                              "multiplier": 1,
-                              "unitBase": 10
-                            },
-                            "value": 83.66666412353516
-                          },
-                          "pinnedRight": false,
-                          "pinnedRightValue": {
                             "unit": {
                               "multiplier": 1,
                               "unitBase": 10
                             },
                             "value": 0
                           },
-                          "pinnedTop": true,
+                          "pinnedRight": true,
+                          "pinnedRightValue": {
+                            "unit": {
+                              "multiplier": 1,
+                              "unitBase": 10
+                            },
+                            "value": 25.000030517578125
+                          },
+                          "pinnedTop": false,
                           "pinnedTopValue": {
                             "unit": {
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 627.5
+                            "value": 0
                           },
                           "pinnedVerticalCenterValue": {
                             "unit": {
@@ -555,8 +555,8 @@
                             "sx": 1.5,
                             "sy": 1.5,
                             "sz": 0.9999999403953552,
-                            "x": 83.66666412353516,
-                            "y": 627.5,
+                            "x": 83.66665649414062,
+                            "y": 563.5,
                             "z": 0.00006103515625
                           },
                           "usesFlexibleHeight": false,
@@ -567,7 +567,7 @@
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 210.66668701171875
+                            "value": 251.33331298828125
                           }
                         },
                         {
@@ -823,13 +823,13 @@
                           "materialIdentifier": "defaultMaterial:423-ab407d17-c404-4e22-83d7-02e6c170a6c5",
                           "outputVisibility": "preview|capture",
                           "physicsEnabled": false,
-                          "pinnedBottom": false,
+                          "pinnedBottom": true,
                           "pinnedBottomValue": {
                             "unit": {
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 0
+                            "value": 13.99993896484375
                           },
                           "pinnedHorizontalCenterValue": {
                             "unit": {
@@ -854,13 +854,13 @@
                             },
                             "value": 0
                           },
-                          "pinnedTop": true,
+                          "pinnedTop": false,
                           "pinnedTopValue": {
                             "unit": {
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 606.0000610351562
+                            "value": 0
                           },
                           "pinnedVerticalCenterValue": {
                             "unit": {
@@ -895,7 +895,7 @@
                             "sy": 1.5000004768371582,
                             "sz": 0.9999999403953552,
                             "x": 14.500028610229492,
-                            "y": 606.0000610351562,
+                            "y": 542.0000610351562,
                             "z": 0.00006103515625
                           },
                           "usesFlexibleHeight": false,
@@ -965,7 +965,7 @@
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 6.666595458984375
+                            "value": 6.6665917529296905
                           },
                           "pinnedTop": false,
                           "pinnedTopValue": {
@@ -1007,8 +1007,8 @@
                             "sx": 1.5,
                             "sy": 1.500000238418579,
                             "sz": 1,
-                            "x": 186.3333282470703,
-                            "y": 521.5,
+                            "x": 156.3333282470703,
+                            "y": 457.5,
                             "z": 0.00006103515625
                           },
                           "usesFlexibleHeight": false,
@@ -1055,7 +1055,7 @@
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 2.49981689453125
+                            "value": 2.4998189648437688
                           },
                           "pinnedHorizontalCenterValue": {
                             "unit": {
@@ -1064,21 +1064,21 @@
                             },
                             "value": 0
                           },
-                          "pinnedLeft": false,
+                          "pinnedLeft": true,
                           "pinnedLeftValue": {
                             "unit": {
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 0
+                            "value": 5.3333587646484375
                           },
-                          "pinnedRight": true,
+                          "pinnedRight": false,
                           "pinnedRightValue": {
                             "unit": {
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 187.66663551330566
+                            "value": 0
                           },
                           "pinnedTop": false,
                           "pinnedTopValue": {
@@ -1121,7 +1121,7 @@
                             "sy": 1.5000004768371582,
                             "sz": 1,
                             "x": 5.3333587646484375,
-                            "y": 583.5000610351562,
+                            "y": 519.5000610351562,
                             "z": 0.00006103515625
                           },
                           "usesFlexibleHeight": false,
@@ -1152,7 +1152,7 @@
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 232.66664123535156
+                            "value": 232.6666259765625
                           },
                           "hidden": false,
                           "horizontalAlignment": "center",
@@ -1162,13 +1162,13 @@
                           "materialIdentifier": "defaultMaterial:415-4304a479-096d-44df-b385-259e45141a5a",
                           "outputVisibility": "preview|capture",
                           "physicsEnabled": false,
-                          "pinnedBottom": true,
+                          "pinnedBottom": false,
                           "pinnedBottomValue": {
                             "unit": {
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 597.1666831970215
+                            "value": 0
                           },
                           "pinnedHorizontalCenterValue": {
                             "unit": {
@@ -1193,13 +1193,13 @@
                             },
                             "value": -0.5
                           },
-                          "pinnedTop": false,
+                          "pinnedTop": true,
                           "pinnedTopValue": {
                             "unit": {
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 0
+                            "value": 14.166679382324219
                           },
                           "pinnedVerticalCenterValue": {
                             "unit": {
@@ -1233,8 +1233,8 @@
                             "sx": 1.4999998807907104,
                             "sy": 1.5000001192092896,
                             "sz": 1,
-                            "x": 232.5,
-                            "y": 14.16668701171875,
+                            "x": 202.5,
+                            "y": 14.166679382324219,
                             "z": 0.00006103515625
                           },
                           "usesFlexibleHeight": false,
@@ -1269,9 +1269,9 @@
                               "multiplier": 1,
                               "unitBase": 20
                             },
-                            "value": 100
+                            "value": 70
                           },
-                          "hidden": false,
+                          "hidden": true,
                           "horizontalAlignment": "center",
                           "horizontalTextAlignment": "center",
                           "isDynamicText": false,
@@ -1280,24 +1280,24 @@
                           "letterSpacing": 0,
                           "lineSpacing": 30,
                           "locksAspectRatio": false,
-                          "outputVisibility": "preview|capture",
+                          "outputVisibility": "preview|disabled_peer",
                           "physicsEnabled": false,
-                          "pinnedBottom": false,
+                          "pinnedBottom": true,
                           "pinnedBottomValue": {
                             "unit": {
                               "multiplier": 1,
                               "unitBase": 10
                             },
-                            "value": 0
+                            "value": 234
                           },
                           "pinnedHorizontalCenterValue": {
                             "unit": {
                               "multiplier": 1,
-                              "unitBase": 10
+                              "unitBase": 20
                             },
                             "value": 0
                           },
-                          "pinnedLeft": true,
+                          "pinnedLeft": false,
                           "pinnedLeftValue": {
                             "unit": {
                               "multiplier": 1,
@@ -1313,7 +1313,7 @@
                             },
                             "value": 0
                           },
-                          "pinnedTop": true,
+                          "pinnedTop": false,
                           "pinnedTopValue": {
                             "unit": {
                               "multiplier": 1,
@@ -1349,15 +1349,15 @@
                           "tags": [],
                           "text": "Blink to Start",
                           "transform": {
-                            "rx": 0,
-                            "ry": 0,
+                            "rx": 2.3283069916502086E-10,
+                            "ry": 1.862645371275562E-9,
                             "rz": 0,
-                            "sx": 1,
+                            "sx": 0.9999998807907104,
                             "sy": 1,
-                            "sz": 1,
+                            "sz": 0.9999998211860657,
                             "x": 0,
                             "y": 0,
-                            "z": 0
+                            "z": 0.0001220703125
                           },
                           "usesFlexibleHeight": true,
                           "usesFlexibleWidth": true,
